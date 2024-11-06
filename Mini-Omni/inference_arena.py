@@ -363,7 +363,7 @@ def load_model(ckpt_dir, device):
 
 
 def download_model(ckpt_dir):
-    repo_id = "gpt-omni/mini-omni"
+    repo_id = "gpt-omni/Mini-Omni"
     # repo_id = "/model"
     snapshot_download(repo_id, local_dir=ckpt_dir, revision="main")
 
@@ -538,8 +538,8 @@ def test_infer(input_dir, out_dir):
             for path in test_audio_list:
                 try:
                     mel, leng = load_audio(path)
-                    # /mnt/user/bufan/LALM/mini-omni/data/samples/output1.wav
-                    # /mnt/user/bufan/LALM/mini-omni/data/samples/output1/1.wav
+                    # /mnt/user/bufan/LALM/Mini-Omni/data/samples/output1.wav
+                    # /mnt/user/bufan/LALM/Mini-Omni/data/samples/output1/1.wav
                     # output_dir = path.split(".")[0]
                     audio_feature, input_ids = get_input_ids_whisper(mel, leng, whispermodel, device)
                     text = A1_A2(
