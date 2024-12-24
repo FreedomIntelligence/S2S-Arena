@@ -9,8 +9,9 @@ import re
 DEBUG = False
 
 # openai.log = "debug"
-openai.api_key = ""  # 填写我们给您的apikey
-openai.api_base = "https://api.ai-gaochao.cn/v1"
+# ToDo: Here, you need to fill in the details based on your API service provider.
+openai.api_key = ""
+openai.api_base = ""
 
 openai.proxy = {
     "http": None,
@@ -42,10 +43,11 @@ class GetOpenAI:
                 # presence_penalty=0,
             )
             for event in response:
-                if event['choices'][0]['finish_reason'] == 'stop':
+                if len(event['choices']) == 0:
+                    continue
+                elif event['choices'][0]['finish_reason'] == 'stop':
                     if DEBUG:
-                        pass
-                        # print(f'收到的完成数据: {completion}')
+                        print(f'收到的完成数据: {completion}')
                     break
                 for delta_k, delta_v in event['choices'][0]['delta'].items():
                     if DEBUG:
