@@ -94,7 +94,7 @@ coming soon
 
 ## Dataset
 
-You can refer to: [Hugging Face Dataset](https://huggingface.co/datasets/FreedomIntelligence/S2S-Bench)
+You can refer to: [Hugging Face Dataset](https://huggingface.co/datasets/FreedomIntelligence/S2S-Arena)
 
 ## BIb
 Since our project is still ongoing and requires the involvement of many friends and partners in the evaluation process, we have decided to publicly release the first draft of our paper to help everyone quickly understand our research progress and encourage participation. However, it is important to note that this is only our preliminary version, not the final draft.
