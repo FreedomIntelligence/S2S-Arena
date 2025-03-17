@@ -96,5 +96,10 @@ coming soon
 ## BIb
 
 ```
-
+@article{jiang2025s2s,
+  title={S2S-Arena, Evaluating Speech2Speech Protocols on Instruction Following with Paralinguistic Information},
+  author={Jiang, Feng and Lin, Zhiyu and Bu, Fan and Du, Yuhao and Wang, Benyou and Li, Haizhou},
+  journal={arXiv preprint arXiv:2503.05085},
+  year={2025}
+}
 ```
