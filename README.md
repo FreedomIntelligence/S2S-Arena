@@ -100,5 +100,11 @@ You can refer to: [Hugging Face Dataset](https://huggingface.co/datasets/Freedom
 Since our project is still ongoing and requires the involvement of many friends and partners in the evaluation process, we have decided to publicly release the first draft of our paper to help everyone quickly understand our research progress and encourage participation. However, it is important to note that this is only our preliminary version, not the final draft.
 [Our Paper](./S2S_Arena.pdf)
 ```
+@article{jiang2025s2s,
+  title={S2S-Arena, Evaluating Speech2Speech Protocols on Instruction Following with Paralinguistic Information},
+  author={Jiang, Feng and Lin, Zhiyu and Bu, Fan and Du, Yuhao and Wang, Benyou and Li, Haizhou},
+  journal={arXiv preprint arXiv:2503.05085},
+  year={2025}
+}
 
 ```
