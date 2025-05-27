@@ -41,7 +41,14 @@ export PYTHONPATH=third_party/Matcha-TTS
 我们直接通过API复现了`gpt-4o-realtime-preview-2024-10-01`版本。相关代码和环境配置方法请参见[./GPT-4o](./GPT-4o)。若出现模型不回答或语音格式问题，可尝试使用[转化代码](./GPT-4o/input/convert.py)。
 
 ### SpeechGPT
-我们使用了[SpeechGPT开源代码](https://github.com/0nutation/SpeechGPT/tree/main/speechgpt)，未进行修改。
+我们基于 [SpeechGPT 开源代码](https://github.com/0nutation/SpeechGPT/tree/main/speechgpt) 进行了开发，扩展了其推理逻辑以支持批量处理，并使其更好地融入本项目的工作流程。
+
+相关代码位于 [./SpeechGPT](./SpeechGPT)。
+
+### GLM-4-Voice
+我们基于 [GLM-4-Voice 开源代码](https://github.com/THUDM/GLM-4-Voice) 进行了开发，扩展了其推理逻辑以支持批量处理，并使其更好地融入本项目的工作流程。
+
+相关代码位于 [./GLM-4-Voice](./GLM-4-Voice)。
 
 ### FunaudioLLMs-Qwen72B
 我们复现了该模型的两个版本，分别为官方版本(使用Qwen-72B作为其中的LLMs)和使用GPT-4o的版本，本节介绍前者，下一节介绍后者。
