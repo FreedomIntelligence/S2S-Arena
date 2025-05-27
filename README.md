@@ -48,7 +48,7 @@ We started from the [SpeechGPT open-source code](https://github.com/0nutation/Sp
 The related code is located in [./SpeechGPT](./SpeechGPT).
 
 ### GLM-4-Voice
-We started from the [GLM-4-Voice open-source code]([https://github.com/0nutation/SpeechGPT/tree/main/speechgpt](https://github.com/THUDM/GLM-4-Voice)) and have extended its inference logic to support batch processing and better integrate with this project’s workflow.  
+We started from the [GLM-4-Voice open-source code](https://github.com/THUDM/GLM-4-Voice) and have extended its inference logic to support batch processing and better integrate with this project’s workflow.  
 
 The related code is located in [./GLM-4-Voice](./GLM-4-Voice).
 
