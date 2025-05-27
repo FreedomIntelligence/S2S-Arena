@@ -43,7 +43,9 @@ export PYTHONPATH=third_party/Matcha-TTS
 We reproduced the `gpt-4o-realtime-preview-2024-10-01` version by calling the API directly. Refer to [./GPT-4o](./GPT-4o) for related code and environment configuration. If you experience issues with model responses or speech format, try using the [conversion code](./GPT-4o/input/convert.py).
 
 ### SpeechGPT
-We used the [SpeechGPT open-source code](https://github.com/0nutation/SpeechGPT/tree/main/speechgpt) without modifications.
+We started from the [SpeechGPT open-source code](https://github.com/0nutation/SpeechGPT/tree/main/speechgpt) and have extended its inference logic to support batch processing and better integrate with this project’s workflow.  
+
+The related code is located in [./SpeechGPT](./SpeechGPT).
 
 ### FunaudioLLMs-Qwen72B
 We reproduced two versions of this model: the official version (using Qwen-72B as the LLMs) and a version using GPT-4o. This section introduces the former; the next section introduces the latter.
