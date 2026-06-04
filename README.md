@@ -40,9 +40,8 @@ S2S-Arena is a speech-native benchmark for evaluating instruction-following S2S 
 This repository is under active development. We are currently preparing the public release of the dataset, automatic evaluation scripts, and a continuously updated leaderboard.
 
 ## News
-
+- **2026-06**: Released the Seed_data.
 - **2026-05**: S2S-Arena was accepted to the ACL 2026 main conference.
-- **Coming soon**: Seed and Augment dataset release.
 - **Coming soon**: Automatic evaluation toolkit.
 - **Coming soon**: Live leaderboard for S2S model comparison.
 
